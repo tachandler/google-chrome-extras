@@ -1,0 +1,10 @@
+{
+  "name":"Google Contacts",
+  "version":"1.0","manifest_version":2,
+  "description":"Open Google Contacts in a Chrome tab.",
+  "app":{
+    "urls":["https://contacts.google.com"],
+    "launch":{ "web_url":"https://contacts.google.com" }
+  },
+  "icons":{ "128":"128.png", "64":"64.png", "32":"32.png", "16":"16.png" }
+}
