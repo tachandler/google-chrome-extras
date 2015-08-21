@@ -1,11 +1,12 @@
 {
   "name":"Google Mail",
   "version":"1.0","manifest_version":2,
-  "description":"Open Google Mail in a Chrome tab.",
+  "description":"Open Google Mail in a Chrome tab bypassing the splash page.",
+  "icons":{ "128":"128.png", "64":"64.png", "32":"32.png", "16":"16.png" },
   "app":{
     "urls":["https://accounts.google.com/"],
-    "launch":{ "web_url":"https://accounts.google.com/ServiceLogin?service=mail&continue=https://mail.google.com/mail/"
+    "launch":{
+      "web_url":"https://accounts.google.com/ServiceLogin?service=mail&continue=https://mail.google.com/mail/"
     }
-  },
-  "icons":{ "128":"128.png", "64":"64.png", "32":"32.png", "16":"16.png" }
+  }
 }
