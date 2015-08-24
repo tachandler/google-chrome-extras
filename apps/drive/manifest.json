@@ -4,9 +4,9 @@
   "description":"Open Google Drive in a Chrome tab bypassing the splash page.",
   "icons":{ "128":"128.png", "48":"48.png", "32":"32.png", "16":"16.png" },
   "app":{
-    "urls":["https://accounts.google.com/"],
+    "urls":["https://drive.google.com/"],
     "launch":{
-      "web_url":"https://accounts.google.com/ServiceLogin?service=wise&continue=https://drive.google.com/"
+      "web_url":"https://drive.google.com/drive/my-drive"
     }
   }
 }
